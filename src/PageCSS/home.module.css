@@ -4,3 +4,7 @@
     padding: 2rem;            /* adds breathing room */
     min-height: 100vh;        /* makes it full height */
 }
+
+.headerContent {
+    text-align: center;
+}

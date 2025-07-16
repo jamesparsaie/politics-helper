@@ -1,7 +1,9 @@
 .header {
   height: 56px;
-  background-color: black;
   color: white;
+  background-color: black;
+  width: 65%;
+  border-radius: 15px;
 }
 
 .inner {

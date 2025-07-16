@@ -5,7 +5,9 @@ import { Header } from '../components/Header/Header'
 export const Route = createRootRoute({
   component: () => (
     <>
-      <Header />
+      <div style={{display: 'flex', justifyContent: 'center'}}>
+        <Header />
+      </div>
       <Outlet />
       <TanStackRouterDevtools />
     </>
