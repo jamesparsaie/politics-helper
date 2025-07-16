@@ -1,4 +1,6 @@
 .mainContent {
     background-color: rgb(31, 31, 31);
-    height: 100vh
+    color: white;             /* ensures text is visible */
+    padding: 2rem;            /* adds breathing room */
+    min-height: 100vh;        /* makes it full height */
 }
