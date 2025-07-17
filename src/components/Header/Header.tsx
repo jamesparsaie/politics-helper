@@ -15,7 +15,7 @@ export function Header() {
   const [opened, { toggle }] = useDisclosure(false);
 
     const items = links.map((link) => (
-        <Link  to={link.link} className={classes.link}>
+        <Link to={link.link} className={classes.link}>
             {link.label}
         </Link>
     ));
@@ -30,7 +30,6 @@ export function Header() {
         <Group gap={5} visibleFrom="xs">
           {items}
         </Group>
-
         <Burger opened={opened} onClick={toggle} hiddenFrom="xs" size="sm" color='white'/>
       </Container>
     </header>
